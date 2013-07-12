@@ -1,8 +1,8 @@
 {
     "name": "t4s/excalibur",
-    "description": "Access Control system ",
+    "description": "Access Control system",
     "license": "BSD-3-Clause",
-    "keywords": ["Access Controll","Laravel"],
+    "keywords": ["Access Controll","Laravel","Laravel 4"],
     "homepage": "https://github.com/taftse/Excalibur/",
     "authors": [
         {
@@ -13,6 +13,12 @@
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "4.0.x"
+    },
+    "require-dev":{
+       "mockery/mockery": "dev-master"
+    },
+    "suggest": {
+        "t4s/camelot-auth": ""
     },
     "autoload": {
         "classmap": [
